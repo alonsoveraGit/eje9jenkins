@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  proxy:
+    image: alonsovera/nginx
+    hostname: proxyInverso
+    container_name: proxyInverso
+    ports:
+      - '6654:80'
